@@ -1,0 +1,40 @@
+/* O * seleciona todos os itens (elementos de eraça) */
+*{
+ /* Atalho: M0 + enter e P0 + enter */
+margin: 0;
+padding: 0;
+box-sizing: boorder-box; /* Mantem o tamanho do plano sem ser alterado pelo padding */
+/*font.google.com para pegar as fontes e adicionar no head no cód HTML*/
+/*Cód do google*/
+font-family: "Poppins", sans-serif;
+}
+
+/*Criar Variavel - root + pseudo class - define o escopo variável - root é da global*/
+:root{
+    --color-light: #ffffff;
+    --color-dark: #000000;
+    --color-verde: #108554;
+    --transtition: .5s;
+}
+
+/*Para tirar as bolinhas da lista e deixar ordenados */
+ul,ol {
+    list-style:none;
+}
+
+/*Fontes do Link*/
+a{
+    text-decoration:none ;
+    font-weight: 600;
+    transition: color var(--color-dark)
+}
+
+/*trocar a cor do texto quando passar o cursor em cima*/
+a:hover{
+color: var(--color-verde)
+}
+
+.header-page{
+    width: 100%
+  
+}
